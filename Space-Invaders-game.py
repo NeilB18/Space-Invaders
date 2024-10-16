@@ -8,7 +8,7 @@ pygame.display.set_caption("Space Invaders")
 icon = pygame.image.load('spaceship.png')
 pygame.display.set_icon(icon)
 
-scores = []
+scores = [] #to keep track of scores
 
 bg = pygame.image.load('space-galaxy-background.jpg')
 
